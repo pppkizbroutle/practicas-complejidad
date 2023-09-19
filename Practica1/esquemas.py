@@ -111,7 +111,7 @@ with open(entrada, "r") as file:
     e = file.read()
     # Creamos la matriz de adyacencias
     matrix = Matrix(e)
-    # Imprimimos su inforación
+    # Imprimimos su información
     print(f'La gráfica tiene {matrix.n} vértices y {matrix.e} aristas')
     print(f'El valor de K es {matrix.k}')
     archivo = open(salida, "w")
