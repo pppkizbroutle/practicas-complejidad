@@ -113,9 +113,12 @@ with open(entrada, "r") as file:
     matrix = Matrix(e)
     # Imprimimos su inforación
     print(f'La gráfica tiene {matrix.n} vértices y {matrix.e} aristas')
-    print(f'El valor de K es {matrix.k}')
+    print(f'El valor de K es {matrix.k}\n')
     archivo = open(salida, "w")
     # Escribimos el archivo de salida con el esquema de codificación
     # en binario
     archivo.write(str(matrix))
     archivo.close()
+    print(f'La entrada fue:\n{e}')
+    print(f'Su codificación binaria es:\n{matrix}')
+    
