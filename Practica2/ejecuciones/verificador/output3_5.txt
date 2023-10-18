@@ -1,0 +1,4 @@
+Número de elementos en S (el conjunto universo): 8
+Número de subconjuntos en C: 24
+Valor de K: 3
+Respuesta a la pregunta: No
